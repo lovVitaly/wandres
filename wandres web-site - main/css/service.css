@@ -1,0 +1,379 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+    padding: 0;
+    
+    
+}
+.content {   
+    width: 100%;
+    height: 100%;
+	min-height: 100%;
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #ffffff;
+    font-family: Open Sans,arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    background: url(../img/bg-part-0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topheader {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+}
+.line p {
+    float: left;
+    margin:5px 20px;
+    text-align: left;
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: bold;
+}
+.toppic {
+    
+    height: 100px;
+    margin-top: 15px;
+    text-align: left;
+    float:left;
+}
+.toppic2 {
+  
+    float:left;
+    margin-left:10px;
+    padding:15px 0px;
+}
+.toppic img {
+   
+   padding:10px;
+   
+}
+.toppic p {
+    float: right;
+}
+.topline p {
+   
+    line-height: 25px;
+    background: lightskyblue;
+    font-family: Open Sans Condensed;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-weight: 600;
+}
+.rightbox {
+    flex-direction: column;
+}
+.iconmailtop a {
+    float: left;
+    text-decoration: none;
+    padding: 0px 0px 0px 28px;
+    padding-right: 15px;
+    position: relative;
+    display: block;
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;
+    
+}
+.iconphototop a{
+    float:left;
+    text-decoration: none;
+    padding: 18px 0px 0px 28px;
+    position: relative;
+    display: block;
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;  
+}
+header {
+    border-top: 1px solid #d6d6d6;
+    width: inherit;
+    background: #f2f4f1;
+}
+header nav {
+    text-align: center;
+    margin: auto;
+}
+    
+header nav a {
+    margin: auto;
+    font-family: Open Sans Condensed;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #6b6666;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 55px;
+    margin: 0 25px;
+}
+header nav a:hover {
+    color: #474441;
+}
+.maintext {
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+    margin-top:50px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom:20px;
+}
+.maintext h1 {
+    color: #9bbe44;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.wan1 {
+    color:#0065af;
+}
+.in {
+    color: #9bbe44;
+}
+.maintext p, li  {
+    padding:5px;
+}
+.maintext h3 {
+    margin-left:50px;
+    line-height: 30px;
+    padding:30px;
+    color:#9bbe44;
+    
+}
+.contactsservice {
+    flex-direction: column;
+    margin:auto;
+    text-align: center;
+   
+}
+.iconmailtop2 {
+    display: flex;
+    flex-direction: row;
+}
+.iconmailtop2 p {
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+}
+.iconmailtop2 a {
+    text-decoration: none;
+    padding: 0px 0px 0px 28px;
+    padding-right: 15px;
+    position: relative;
+    display: block;
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;
+    
+}
+.iconphototop2 {
+    display: flex;
+    flex-direction: row;
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+}
+.iconphototop2 a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    color: #4b4c51;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;  
+    margin-left:273px;
+}  
+
+footer {
+    position: absolute;
+	width: 100%;
+    background: #4b4c51;
+
+}
+footer .level1 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+footer nav {
+    margin-top: 20px;
+}
+.box1 {
+float:left;
+text-align: left;
+}
+
+.box1  h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px 4px;
+    border-bottom: 2px #3f4047 solid;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.box1 nav a {
+    padding-top:5px;
+    text-decoration: none;
+    margin:7px;
+    color:#bdcdf4;
+    font-size: 16px;
+    font-weight: 550;
+
+}
+.box2 {
+    float: right;
+}
+
+.box2 h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px 4px;
+    border-bottom: 2px #3f4047 solid;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.home {
+    float:left;
+    padding: 5px;
+   
+}
+
+.home span  {
+    font-size: 18px;
+    line-height:22px;
+    font-weight: 600;
+ 
+}
+
+.inform {
+    float: right;
+    width: 180px;
+    padding:5px;
+  
+}
+.inform img {
+    float: left;
+
+}
+.footerphonenumber img {
+    float:left;
+  
+}
+.footerphonenumber p {
+    padding-left: 5px;
+    text-decoration: none;
+    padding-bottom:-15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height:30px;
+    color: black;
+    float:left;
+
+}
+.footermailicon p {
+    padding-left: 5px;
+    text-decoration: none;
+    padding-bottom:-15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height:30px;
+    color: black;
+    float:left;
+}
+
+
+@media screen and (max-width: 1300px) {
+    footer .level1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:1015px) {
+    .topheader {
+        flex-direction: column;
+        margin:auto;
+        padding: 5px;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 603px) {
+    .box2 { 
+        display: flex;
+        flex-direction: column;;
+}
+.iconmailtop2 {
+    flex-direction: column;
+}
+ .inform {
+     margin: auto;
+ }
+}
+@media screen and (max-width: 360px) {
+    header nav a {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .topheader {
+        flex-direction: column;
+    
+        margin: 0px 40px;
+        padding: 5px;
+    
+    }
+    .line p {
+        text-align: center;
+    }
+    .toppic {
+        width: 250px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .toppic2 {
+        width:250px;
+       text-align: center;
+    }
+    .line {
+        width:250px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .rightbox {
+        flex-direction: column;
+        width: 250px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .maintext {
+        width: 85%;
+    }
+    }
